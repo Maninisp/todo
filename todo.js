@@ -3,11 +3,11 @@ function add(){
 
     if (item.length < 28){
     var div = document.createElement("div");
-
+    div.className = "newit";
     var t = document.createTextNode(item);
     var button = document.createElement("button");
     button.innerHTML = "X";
-    
+    button.className = "close";
     button.addEventListener("click", del);
     function del(){
         var div = this.parentElement;
