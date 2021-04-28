@@ -1,0 +1,16 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: cornsilk;
+}
+h4{
+    color: rgb(0, 255, 42);
+}
+
+div{
+    border: 1px solid black;
+    display: block;
+    margin: 10%;
+}
