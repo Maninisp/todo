@@ -1,28 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
 body{
     background-color: cornflowerblue;
 }
 
-h1{
-    color: cornsilk;
-}
-h4{
-    color: rgb(0, 255, 42);
-}
 
 .newit{
     position: relative;
     border: 1px solid black;
     display: block;
-    margin: 10%;
+    margin: 2%;
     background-color: cadetblue;
     color: cornsilk;
  }
 
  .close{
      position: absolute;
-     right: 0;
+     right: 5;
+     top: 2.5;
      padding: 0;
      margin: 0;
-     color: white;
-     background-color: tomato;
+     color: rgba(32, 61, 105, 0.801);
+     background-color: transparent;
+     border: none;
+     text-align: center;
+     
  }

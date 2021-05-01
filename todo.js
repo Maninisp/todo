@@ -5,6 +5,9 @@ function add(){
     var div = document.createElement("div");
     div.className = "newit";
     var t = document.createTextNode(item);
+    document.getElementById("display").appendChild(div);
+    // item = "";
+    document.getElementById("item").value = "";
     var button = document.createElement("button");
     button.innerHTML = "X";
     button.className = "close";
@@ -16,13 +19,14 @@ function add(){
     div.appendChild(t);
     div.appendChild(button);
 
-    document.getElementById("display").appendChild(div)
+   
 
-   document.getElementById("item").value = "";
+   
    }
 
    else{
     alert("max. 28 characters only");
+    // document.getElementById("item").value = "";
    }
 
 }
